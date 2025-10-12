@@ -160,14 +160,6 @@ Measures sensitivity to volatility changes.
 ```
 Measures sensitivity to interest rate changes.
 
-## 🎓 Educational Value
-
-This project is ideal for:
-
-- **Students**: Learning numerical methods for PDEs
-- **Researchers**: Implementing and testing pricing algorithms
-- **Practitioners**: Understanding finite difference mechanics
-- **Developers**: Building options pricing engines
 
 ### Key Learning Points
 
