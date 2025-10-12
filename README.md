@@ -21,54 +21,9 @@ Additionally, the project includes accurate calculations of all five major optio
 - **Well-Documented Code**: Extensive mathematical explanations and comments
 - **Production-Ready**: Optimized grid parameters and error handling
 
-## 🚀 Quick Start
 
-### Installation
 
-```bash
-# Clone the repository
-git clone https://github.com/yourusername/finite-difference-options.git
-cd finite-difference-options
 
-# Install required packages
-pip install numpy
-```
-
-### Basic Usage
-
-```python
-import numpy as np
-from finite_difference_pricing import explicit_fin_diff, exp_fin_diff_delta
-
-# Option parameters
-S = 100.0      # Current stock price
-K = 100.0      # Strike price
-T = 1.0        # Time to maturity (years)
-sigma = 0.25   # Volatility (25%)
-r = 0.05       # Risk-free rate (5%)
-q = 0.02       # Dividend yield (2%)
-N = 1000       # Number of time steps
-Nj = 100       # Number of price steps
-
-# Price a European call option
-call_price = explicit_fin_diff(S, K, T, sigma, r, q, N, Nj, 'Call')
-print(f"Call Option Price: ${call_price:.4f}")
-
-# Calculate Delta
-delta = exp_fin_diff_delta(S, K, T, sigma, r, q, N, Nj, 'Call')
-print(f"Delta: {delta:.4f}")
-```
-
-### Running the Demo
-
-```bash
-python main.py
-```
-
-This will display:
-- Option prices using all three methods
-- Complete Greeks for both calls and puts
-- Put-Call parity verification
 
 ## 📊 Mathematical Background
 
