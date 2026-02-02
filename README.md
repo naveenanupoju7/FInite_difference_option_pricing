@@ -124,20 +124,6 @@ Measures sensitivity to interest rate changes.
 4. **Boundary Conditions**: Proper handling at S→0 and S→∞
 5. **Greeks Approximation**: Numerical differentiation techniques
 
-## 📁 Project Structure
-
-```
-finite-difference-options/
-│
-├── finite_difference_pricing.py    # Main pricing methods
-├── greeks_calculation.py           # Greeks computation
-├── main.py                          # Demo and examples
-├── README.md                        # This file
-├── requirements.txt                 # Dependencies
-└── tests/                           # Unit tests
-    ├── test_pricing.py
-    └── test_greeks.py
-```
 
 ## 🔍 Example Output
 
